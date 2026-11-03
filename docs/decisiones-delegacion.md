@@ -13,7 +13,7 @@ Este documento registra **qué se delegó al agente, qué se hizo a mano y por q
 - Implementar cambios pequeños y bien descritos (por ejemplo, un ajuste del menú).
 - Revisar el repositorio y reportar hallazgos sin modificar.
 
-**No se delega** (decide la persona):
+**No se delega** :
 
 - El alcance y las reglas de negocio (`docs/especificacion.md`).
 - La arquitectura por capas y sus dependencias.
@@ -42,7 +42,7 @@ Este documento registra **qué se delegó al agente, qué se hizo a mano y por q
 
 ## 3. Registro de delegación por tarea y propuestas del agente que rechacé o modifiqué
 
-Parte del código inicial se obtuvo mediante consultas a un asistente de chat, copiado luego al repositorio (ver `docs/preparacion-agente.md`, apartado 1.3). Todo el trabajo posterior de verificación, corrección y ampliación se realizó con el agente sobre el repositorio.
+Parte del código inicial se obtuvo mediante consultas a un asistente de chat, copiado luego al repositorio. Todo el trabajo posterior de verificación, corrección y ampliación se realizó con el agente sobre el repositorio.
 
 👤 (2/11/2026 21:51)
 Lee .github/copilot-instructions.md y docs/progreso.md. Revisa la estructura de la solución y dime si respeta la arquitectura descrita. No modifiques ningún archivo todavía.
@@ -396,9 +396,3 @@ La ejecución directa mediante terminal fue rechazada por el entorno, por lo que
 | Afirmar que algo funciona sin comprobarlo | Obligación de reportar la salida literal de `dotnet build` y `dotnet test` |
 
 ---
-
-## 7. Lecciones aprendidas
-
-- Qué funcionó bien al delegar: [COMPLETAR]
-- Qué tuve que corregir o volver a pedir: [COMPLETAR]
-- Qué haría distinto: [COMPLETAR]
