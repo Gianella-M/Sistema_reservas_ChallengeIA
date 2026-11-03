@@ -4,12 +4,12 @@ Aplicación de consola en C# (.NET) para consultar el inventario, verificar disp
 
 Proyecto del **Challenge IA**: desarrollo con un agente de programación que actúa sobre el repositorio.
 
-Autor: [COMPLETAR nombre y legajo]
-Materia / cátedra: [COMPLETAR]
+Autor: Gianella Mordacini - 57965
+Materia / cátedra: Tópicos Avanzado de Ingeniería de Software
 
 ## Requisitos
 
-- .NET SDK [COMPLETAR versión, visible con `dotnet --version`]
+- .NET SDK [9.0.313, versión 10.0.402]
 - Git
 
 No hace falta instalar ninguna base de datos: SQLite crea el archivo `reservas.db` al primer arranque.
@@ -46,4 +46,4 @@ Las dependencias van hacia adentro: Consola, Infraestructura y Tests dependen de
 
 ## Uso del agente
 
-El trabajo se realizó con [COMPLETAR agente y modelo] sobre este repositorio. Las instrucciones permanentes están en [COMPLETAR ruta, p. ej. `.github/copilot-instructions.md`] y la evidencia en `docs/evidencias/`.
+El trabajo se realizó con GutHub Copilot Chat en modo Agent sobre este repositorio. Las instrucciones permanentes están en .github/copilot-instructions.md y la evidencia en `docs/evidencias/`.
