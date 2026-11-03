@@ -5,7 +5,7 @@ Aplicación de consola en C# (.NET) para consultar el inventario, verificar disp
 Proyecto del **Challenge IA**: desarrollo con un agente de programación que actúa sobre el repositorio.
 
 Autor: Gianella Mordacini - 57965
-Materia / cátedra: Tópicos Avanzado de Ingeniería de Software
+Materia: Tópicos Avanzado de Ingeniería de Software
 
 ## Requisitos
 
@@ -18,7 +18,7 @@ No hace falta instalar ninguna base de datos: SQLite crea el archivo `reservas.d
 
 ```bash
 dotnet build
-dotnet run --project SistemaReservas.Consola
+dotnet run --project Sistema_reservas.Presentacion
 ```
 
 ## Cómo ejecutar las pruebas
@@ -33,7 +33,7 @@ Las fechas se ingresan con el formato `dd/MM/yyyy HH:mm` (hora local). Ejemplo: 
 
 ## Estructura
 
-Las dependencias van hacia adentro: Consola, Infraestructura y Tests dependen de Aplicación, y Aplicación depende solo de Dominio.
+Las dependencias van hacia adentro: Presentacion, Infraestructura y Tests dependen de Aplicación, y Aplicación depende solo de Dominio.
 
 ## Documentación
 
@@ -46,4 +46,4 @@ Las dependencias van hacia adentro: Consola, Infraestructura y Tests dependen de
 
 ## Uso del agente
 
-El trabajo se realizó con GutHub Copilot Chat en modo Agent sobre este repositorio. Las instrucciones permanentes están en .github/copilot-instructions.md y la evidencia en `docs/evidencias/`.
+El trabajo se realizó con GutHub Copilot Chat en modo Agent sobre este repositorio. Las instrucciones permanentes están en .github/copilot-instructions.md.
