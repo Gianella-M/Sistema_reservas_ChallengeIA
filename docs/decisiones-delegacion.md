@@ -110,6 +110,7 @@ Como manejo correcto, destacó que MenuPrincipal interpreta la entrada como hora
 No modificó ningún archivo.
 
 Segunda ronda
+
 6. Orientación, repetida
 Mensaje que envié:
 Lee .github/copilot-instructions.md y docs/progreso.md. Resúmeme las reglas que vas a seguir y revisa si la estructura de la solución respeta la arquitectura descrita. No modifiques ningún archivo todavía.
