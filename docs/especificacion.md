@@ -68,10 +68,10 @@ Aplicación de consola que permite gestionar la reserva de equipos de laboratori
 | Id | entero | Generado automáticamente. |
 | UnidadId | texto | Unidad reservada. |
 | Solicitante | texto | Persona que reserva. |
-| FechaInicioUtc | fecha y hora | Inicio de la reserva. |
-| FechaFinUtc | fecha y hora | Fin de la reserva. |
+| FechaInicio | fecha y hora | Inicio de la reserva. |
+| FechaFin | fecha y hora | Fin de la reserva. |
 | Estado | Activa / Cancelada | Estado actual. |
-| FechaCreacionUtc | fecha y hora | Momento del registro. |
+| FechaCreacion | fecha y hora | Momento del registro. |
 
 ## 7. Inventario inicial
 
@@ -79,9 +79,9 @@ Aplicación de consola que permite gestionar la reserva de equipos de laboratori
 |---|---|---|
 | MIC-01 | Microscopio óptico 1 | Microscopio |
 | MIC-02 | Microscopio óptico 2 | Microscopio |
-| CEN-01 | Centrífuga | Centrífuga |
-| ESP-01 | Espectrofotómetro | Espectrofotómetro |
-| BAL-01 | Balanza analítica | Balanza |
+| OSC-01 | Osciloscopio | Osciloscopio |
+| MUL-01 | Multímetro | Multímetro |
+| FUE-01 | Fuente de alimentación | Fuente de alimentación |
 
 Se carga solo si la tabla de unidades está vacía, por lo que repetir el arranque no duplica datos.
 
