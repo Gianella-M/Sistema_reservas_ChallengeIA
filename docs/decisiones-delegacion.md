@@ -2,8 +2,6 @@
 
 Este documento registra **qué se delegó al agente, qué se hizo a mano y por qué**, además de las decisiones de diseño tomadas durante el proyecto.
 
-> Los campos `[COMPLETAR]` se llenan con lo que ocurrió realmente. Cada fila debe poder contrastarse con un commit o con una entrada de `docs/progreso.md`.
-
 ---
 
 ## 1. Criterio de delegación
